@@ -1,0 +1,20 @@
+Extract all data from ressis
+
+go into a folder with all the ressi'stick
+
+make a out directory there
+
+then get resource.exe from SCI tools
+
+then for each resource
+resource.exe -o./out ressci.000
+
+
+To repack
+
+This is what you needs
+Stick all resources from each ressci into the correct folders
+stick makevols.exe v 5 into vcfg
+folder
+then from dosbox with the directory containing everything mounted as c:
+run makeall.bat
