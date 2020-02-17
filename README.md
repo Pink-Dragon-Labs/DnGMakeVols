@@ -1,36 +1,11 @@
-## Old Makevols 
-
-Extract all data from ressis
-
-go into a folder with all the ressi'stick
-
-make a out directory there
-
-then get resource.exe from SCI tools
-
-then for each resource
-resource.exe -o./out ressci.000
-
-
-To repack
-
-This is what you needs
-Stick all resources from each ressci into the correct folders
-stick makevols.exe v 5 into vcfg
-folder
-then from dosbox with the directory containing everything mounted as c:
-run makeall.bat
-
-
-
 ## New Makevols - Windows 10
 
-Place all resources in data
+Place all resources in data, in appropriate folders; v56 go in view, hep/scr go in script etc.
 
-Edit all the files in vcfg and make sure your files in data
-are listed, you can put any file in any resource.
+Edit 0.txt in `/vcfg` to include all the resources you mean to include. v56/p56/hep/scr
 
-Run makeall.bat in windows just dble click it
+Run `makeall.bat`; in windows can just be double clicked.
 
-Then your packed resources will be in the out directory
+Then your packed resources will be in the `out` directory
 
+Add all files from `out` directory into your game folder.
