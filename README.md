@@ -2,7 +2,7 @@
 
 Place all resources in data, in appropriate folders; v56 go in view, hep/scr go in script etc.
 
-Edit 0.txt in `/vcfg` to include all the resources you mean to include. v56/p56/hep/scr
+Edit `0.txt` in `/vcfg` to include all the resources you mean to include. v56/p56/hep/scr
 
 Run `makeall.bat`; in windows can just be double clicked.
 
