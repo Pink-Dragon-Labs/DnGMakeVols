@@ -1,11 +1,11 @@
 ## New Makevols - Windows 10
 
-Place all resources in data, in appropriate folders; v56 go in view, hep/scr go in script etc.
+Place all resources in data.
 
-Edit `0.txt` in `/vcfg` to include all the resources you mean to include. v56/p56/hep/scr
+Run `MakeVCFG.bat`; it will output the 0.txt in your vcfg folder.
 
-Run `makeall.bat`; in windows can just be double clicked.
+Open a gitbash terminal and type; `sh MakeAll.bat` this will create the ressci
 
-Then your packed resources will be in the `out` directory
+Then your ressci will be in the `out` directory
 
 Add all files from `out` directory into your game folder.
